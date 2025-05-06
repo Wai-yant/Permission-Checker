@@ -12,21 +12,19 @@ Checker checker = Checker.withActivity(this).withPermission(Manifest.permission.
 				.withListener(new PermissionListener(){
 					@Override
 					public void onPermissionGranted() {
-						
-						//Your code here to continue when prrmission granted
-					 //ခွင့်ပြုချက်ရရင်
+        //Your code here to continue when prrmission granted				//ခွင့်ပြုချက်ရရင်
      }
 
 					@Override
 					public void onPermissionDenied() {
 						//Your code here when permission denied
-            //ခွင့်ပြုချက်မရခဲ့ရင်
+        //ခွင့်ပြုချက်မရခဲ့ရင်
      }
 
 					@Override
 					public void onPermissionNever() {
 						//Your code to explain why you should give permission when user never allow permission
-				    //အသုံးပြုသူမှ ဘယ်တော့မှ permission မပေးသောအခါ ရှင်းပြရန်
+        //အသုံးပြုသူမှ ဘယ်တော့မှ permission မပေးသောအခါ ရှင်းပြရန်
      }
 				});
 				
